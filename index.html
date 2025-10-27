@@ -1,119 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sachin Kumar Ojha | Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sachin Kumar Ojha — Portfolio</title>
   <style>
-    html {
-      scroll-behavior: smooth;
-    }
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 40px; color:#111 }
+    header { margin-bottom: 24px }
+    a { color:#0366d6; text-decoration:none }
+    a:hover { text-decoration:underline }
+    .note { margin-top:18px; color:#444 }
   </style>
 </head>
-
-<body class="bg-gradient-to-br from-blue-50 via-white to-purple-100 text-gray-900 font-sans">
-  <!-- Header -->
-  <header class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-10 text-center shadow-md">
-    <h1 class="text-4xl font-bold">Sachin Kumar Ojha</h1>
-    <p class="text-lg mt-2">Full Stack Developer | MERN Stack | Java Enthusiast</p>
+<body>
+  <header>
+    <h1>Hi — I'm Sachin Kumar Ojha</h1>
+    <p>Welcome to my portfolio. This is a placeholder index.html to make the site go live.</p>
   </header>
 
-  <main class="max-w-5xl mx-auto px-6 py-12">
-    <!-- About Section -->
-    <section class="mb-12 text-center" id="about">
-      <h2 class="text-2xl font-semibold mb-3 text-purple-700">About Me</h2>
-      <p class="text-gray-700 leading-relaxed max-w-3xl mx-auto">
-        A passionate Full Stack Developer with hands-on experience in building interactive and responsive web applications using the MERN stack and Java. 
-        I love transforming ideas into reality through clean and efficient code, while constantly learning new technologies to stay ahead in the evolving tech world.
-      </p>
-    </section>
+  <section>
+    <h2>About this page</h2>
+    <p>This repository was missing an index.html at the root. Once this file is in <strong>main</strong> branch root (or in <code>/docs</code> if you prefer), GitHub Pages can publish the site.</p>
+    <p class="note">After you add this file: go to Settings → Pages → Branch: <strong>main</strong> and Folder: <strong>/ (root)</strong>, Save, then wait a minute and open: https://SachinOjha2001.github.io/My-Portfolio/</p>
+  </section>
 
-    <!-- Skills Section -->
-    <section class="mb-12" id="skills">
-      <h2 class="text-2xl font-semibold mb-6 text-purple-700 text-center">Skills</h2>
-      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-center">
-        <div class="bg-white shadow-lg rounded-2xl py-4 font-semibold text-blue-600 hover:bg-blue-50 transition">HTML</div>
-        <div class="bg-white shadow-lg rounded-2xl py-4 font-semibold text-green-600 hover:bg-green-50 transition">CSS</div>
-        <div class="bg-white shadow-lg rounded-2xl py-4 font-semibold text-yellow-600 hover:bg-yellow-50 transition">JavaScript</div>
-        <div class="bg-white shadow-lg rounded-2xl py-4 font-semibold text-cyan-600 hover:bg-cyan-50 transition">React.js</div>
-        <div class="bg-white shadow-lg rounded-2xl py-4 font-semibold text-indigo-600 hover:bg-indigo-50 transition">Node.js</div>
-        <div class="bg-white shadow-lg rounded-2xl py-4 font-semibold text-emerald-600 hover:bg-emerald-50 transition">MongoDB</div>
-        <div class="bg-white shadow-lg rounded-2xl py-4 font-semibold text-orange-600 hover:bg-orange-50 transition">Express.js</div>
-        <div class="bg-white shadow-lg rounded-2xl py-4 font-semibold text-red-600 hover:bg-red-50 transition">Java</div>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section class="mb-12" id="projects">
-      <h2 class="text-2xl font-semibold mb-6 text-purple-700 text-center">Projects</h2>
-
-      <!-- Weather App -->
-      <div class="bg-white rounded-2xl shadow-lg p-6 mb-8 hover:shadow-2xl transition duration-300">
-        <h3 class="text-xl font-bold text-blue-600 mb-2">Weather App</h3>
-        <p class="text-gray-700 mb-3">Developed a Weather App using React.js that fetches real-time weather data from the OpenWeatherMap API.</p>
-        <p class="text-sm text-gray-600 mb-2"><strong>Tech Stack:</strong> React.js, OpenWeatherMap API</p>
-        <a href="https://github.com/SachinOjha2001/-Weather-App.git" target="_blank" rel="noopener noreferrer" 
-           class="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">View on GitHub</a>
-      </div>
-
-      <!-- Simon Says Game -->
-      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition duration-300">
-        <h3 class="text-xl font-bold text-green-600 mb-2">Simon Says Game</h3>
-        <p class="text-gray-700 mb-3">
-          A simple, interactive memory game built using HTML, CSS, and JavaScript. 
-          The goal of the game is to follow and repeat the system's pattern correctly as levels progress.
-        </p>
-        <p class="text-sm text-gray-600 mb-2"><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
-        <a href="https://github.com/SachinOjha2001/Simon-Says-Game.git" target="_blank" rel="noopener noreferrer"
-           class="inline-block bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition">View on GitHub</a>
-      </div>
-    </section>
-
-    <!-- Resume Section -->
-    <section class="text-center mb-12" id="resume">
-      <h2 class="text-2xl font-semibold mb-3 text-purple-700">My Resume</h2>
-      <p class="text-gray-700 mb-4">Download my resume to know more about my background, skills, and achievements.</p>
-      <a href="https://drive.google.com/file/d/1dp9Q847zuINoY_o157bOEmrb_KqBRXnE/view?usp=sharing" target="_blank" rel="noopener noreferrer"
-         class="bg-purple-500 text-white px-6 py-2 rounded-lg hover:bg-purple-600 transition">Download Resume</a>
-    </section>
-    <!-- Certificates  Section -->
-    <section class="text-center mb-12" id="resume">
-      <h2 class="text-2xl font-semibold mb-3 text-purple-700">My Certificates</h2>
-      <p class="text-gray-700 mb-4">Download and watch my  Certificates  to know more about my background, skills, , Activity and achievements .</p>
-      <a href="https://drive.google.com/drive/folders/1PEyDFI8-Aw_HzynUiY93qoLOt3OTG9jc?usp=sharing" target="_blank" rel="noopener noreferrer"
-         class="bg-purple-500 text-white px-6 py-2 rounded-lg hover:bg-purple-600 transition">Certificates</a>
-    </section>
-
-    <!-- Contact Form -->
-    <section class="text-center mb-12" id="contact">
-      <h2 class="text-2xl font-semibold mb-3 text-purple-700">Contact Me</h2>
-      <p class="text-gray-700 mb-6">Have a project or opportunity in mind? Let’s connect!</p>
-      <form class="max-w-xl mx-auto bg-white p-6 rounded-2xl shadow-lg space-y-4">
-        <input type="text" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-400" required>
-        <input type="email" placeholder="Your Email" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-400" required>
-        <textarea placeholder="Your Message" rows="4" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-400" required></textarea>
-        <button type="submit" class="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition">Send Message</button>
-      </form>
-    </section>
-
-    <!-- Connect Section -->
-    <section class="text-center">
-      <h2 class="text-2xl font-semibold mb-3 text-purple-700">Let's Connect</h2>
-      <p class="text-gray-700 mb-4">I’m always open to discussing new projects, collaborations, or job opportunities.</p>
-      <div class="flex flex-wrap justify-center gap-4">
-        <a href="mailto:sachinkumarojhamca2025@gmail.com" class="bg-purple-500 text-white px-5 py-2 rounded-lg hover:bg-purple-600 transition">Email Me</a>
-        <a href="https://github.com/SachinOjha2001" target="_blank" rel="noopener noreferrer"
-           class="bg-gray-800 text-white px-5 py-2 rounded-lg hover:bg-gray-900 transition">GitHub</a>
-        <a href="https://www.linkedin.com/in/sachin-kumar-ojha-7243722ab/" target="_blank" rel="noopener noreferrer"
-           class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition">LinkedIn</a>
-      </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="text-center text-gray-600 py-6 mt-10 border-t">
-    <p>© 2025 Sachin Kumar Ojha. All Rights Reserved.</p>
+  <footer style="margin-top:40px">
+    <small>Repository: <a href="https://github.com/SachinOjha2001/My-Portfolio">SachinOjha2001/My-Portfolio</a></small>
   </footer>
 </body>
 </html>
